@@ -7,7 +7,7 @@ public class CrossSiteScripting implements SecurityCheck {
 
     @Override
     public void analyze(Path path, List<Vulnerability> vulnerabilities) {
-        if (path.endsWith(".html") || path.endsWith(".js")) {
+        if (path.toString().endsWith(".html") || path.toString().endsWith(".js")) {
             FileScanner.findVulnerabilties(this, path, ALERT_REGEX, vulnerabilities);
         }
     }

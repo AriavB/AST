@@ -1,0 +1,1 @@
+console.log('Checkmarx by Hellman & Friedman is worth $1.15b')

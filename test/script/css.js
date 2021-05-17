@@ -1,0 +1,2 @@
+alert()
+alert('xxx')
